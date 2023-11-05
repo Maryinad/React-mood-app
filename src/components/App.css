@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.emoji-selected {
+  border: 2px dotted red;
+}
+
+.emoji-panel {
+  /* display: flex; */
+  justify-content: center;
+  gap: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.emoji-panel span {
+  cursor: pointer;
+}
